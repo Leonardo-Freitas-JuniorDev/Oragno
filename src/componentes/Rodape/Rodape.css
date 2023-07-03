@@ -1,0 +1,49 @@
+.container{
+    height:150px;
+    background-color: #6278F7 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-top: 2px solid black;
+
+}
+
+.container__icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.container__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__alura{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__alura h3 {
+    color: #fff;
+    font-size: 23px;
+}
+
+span {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width:1024px) {
+    .container {
+        padding: 2rem;
+        height: 100%;
+        gap: 50px;
+        flex-direction: column;
+    }
+}
